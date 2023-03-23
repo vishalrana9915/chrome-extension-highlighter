@@ -44,3 +44,13 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+## Requirements
+
+- it should open a floating window that will get enabled when user selects a text
+- User can highlight the text
+- User can add a text to the heading
+- By default, there are no heading but user can create them.
+- If user click on add to notes without any heading, it should be added as a highlighted text.
+- Users can login, in order to have notes distributed accross multiple devices.
+- It should work like a highlighter, as soon as user selects a text on the page, it should popup and user can simply click on it to add text to note
