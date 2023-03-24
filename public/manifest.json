@@ -1,16 +1,24 @@
 {
   "name": "Highlighter",
-  "description": "Easy way to keep notes on the web, without keeping track of any other application",
-  "version": "1.0",
+  "description": "Easy way to keep notes on the web handy",
+  "version": "1.0.0",
   "manifest_version": 3,
   "action": {
     "default_popup": "index.html",
-    "default_title": "Explore Highlighter"
+    "default_title": "Explore me",
+    "default_icon": {
+      "16": "logo192.png",
+      "48": "logo192.png",
+      "128": "logo192.png"
+    }
   },
   "icons": {
     "16": "logo192.png",
     "48": "logo192.png",
     "128": "logo192.png"
+  },
+  "background": {
+    "service_worker": "index.html"
   },
   "permissions": ["storage", "tabs", "activeTab", "contextMenus"]
 }
