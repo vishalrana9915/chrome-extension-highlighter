@@ -20,5 +20,6 @@
   "background": {
     "service_worker": "index.html"
   },
-  "permissions": ["storage", "tabs", "activeTab", "contextMenus"]
+  "permissions": ["storage", "tabs", "activeTab", "contextMenus"],
+  "options": {}
 }

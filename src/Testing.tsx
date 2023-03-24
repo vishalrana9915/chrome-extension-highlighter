@@ -1,11 +1,6 @@
 /*global chrome*/
 
 
-
-chrome.runtime.onStartup.addListener(()=>{
-    console.log("listener")
-})
-
 export function Testing(){
 
 
